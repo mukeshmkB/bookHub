@@ -1,0 +1,206 @@
+.book-item-details {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fa;
+}
+.book-details-responsive {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1140px;
+  align-self: center;
+  flex: 1;
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  .book-details-responsive {
+    padding-top: 45px;
+  }
+}
+.rating-icon-small {
+  display: inline-block;
+}
+.rating-icon-large {
+  display: none;
+}
+@media (min-width: 768px) {
+  .rating-icon-large {
+    display: inline-block;
+  }
+  .rating-icon-small {
+    display: none;
+  }
+}
+.book-details {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border-radius: 12px;
+}
+@media (min-width: 768px) {
+  .book-details {
+    background-color: #ffffff;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+.book-details-content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  .book-details-content {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.book-item-image {
+  width: 180px;
+  height: 210px;
+  border-radius: 6px;
+}
+.book-meta-info {
+  padding-left: 0px;
+  text-align: center;
+  margin-top: 5px;
+}
+@media (min-width: 768px) {
+  .book-meta-info {
+    padding-left: 30px;
+    margin-top: 0px;
+    text-align: left;
+  }
+}
+.book-details-title {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #334155;
+  margin-top: 12px;
+}
+
+.book-author-name {
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 450;
+  color: #475569;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.book-rating-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.book-rating-label {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.book-rating {
+  font-family: roboto;
+  font-size: 13px;
+  font-weight: 400;
+  color: #475569;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.book-details-status {
+  font-family: roboto;
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.current-status {
+  font-family: 'roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #0284c7;
+}
+@media (min-width: 768px) {
+  .book-details-title {
+    font-size: 22px;
+  }
+  .book-author-name {
+    font-size: 15px;
+  }
+  .book-rating-info {
+    justify-content: flex-start;
+  }
+  .book-rating-label {
+    font-size: 15px;
+  }
+  .book-rating {
+    font-size: 14px;
+  }
+  .book-details-status {
+    font-size: 16px;
+  }
+  .current-status {
+    font-size: 14px;
+  }
+}
+
+.about-author-head {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #334155;
+  margin-bottom: 0px;
+}
+.about-author {
+  font-family: roboto;
+  font-size: 13px;
+  font-weight: 400;
+  color: #475569;
+  line-height: 20px;
+}
+
+.about-book-head {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #334155;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+.about-book {
+  font-family: roboto;
+  font-size: 13px;
+  font-weight: 400;
+  color: #475569;
+  line-height: 20px;
+}
+@media (min-width: 768px) {
+  .about-author-head {
+    font-size: 24px;
+  }
+  .about-author {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .about-book-head {
+    font-size: 24px;
+  }
+  .about-book {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+.separator {
+  width: 100%;
+  margin-top: 25px;
+  border: 0.5px solid #94a3b8;
+}

@@ -1,0 +1,98 @@
+.aside-conatiner {
+  width: 100%;
+  background-color: transparent;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .aside-conatiner {
+  
+    background-color: #ffffff;
+  }
+}
+
+.aside-heading {
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+}
+@media (min-width: 768px) {
+  .aside-heading {
+    font-size: 18px;
+  }
+}
+.book-shelves-list-small-device {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-left: 0px;
+  list-style-type: none;
+}
+.book-shelves-list-large-device {
+  display: none;
+  flex-direction: column;
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.shleve-item {
+  margin-right: 10px;
+  margin-bottom: 12px;
+  flex-shrink: 0px;
+}
+
+.tab-item {
+  background-color: transparent;
+  border: 1px solid #0284c7;
+  font-size: 12px;
+  font-family: 'roboto';
+  color: #0284c7;
+  padding: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 14px;
+}
+.active-tab-item {
+  background-color: #0284c7;
+  border: none;
+  font-size: 12px;
+  font-family: 'roboto';
+  color: #ffffff;
+  padding: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 14px;
+}
+.tab-link {
+  background-color: transparent;
+  font-size: 14px;
+  font-family: 'roboto';
+  color: #475569;
+  border: none;
+  margin-bottom: 12px;
+}
+.active-tab-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #0284c7;
+  background-color: transparent;
+  font-family: 'roboto';
+  border: none;
+  margin-bottom: 12px;
+}
+.active-shelve-small {
+  background-color: #0284c7;
+}
+
+.active-shelve {
+  color: #0284c7;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .book-shelves-list-small-device {
+    display: none;
+  }
+  .book-shelves-list-large-device {
+    display: flex;
+  }
+}

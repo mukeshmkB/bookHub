@@ -1,0 +1,23 @@
+.footer-container {
+  align-self: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .footer-container {
+    margin-bottom: 25px;
+  }
+}
+.contact {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3d3c3c;
+  line-height: 24px;
+  text-align: center;
+}
+@media (mi-width: 768px) {
+  .contact {
+    font-size: 18px;
+  }
+}

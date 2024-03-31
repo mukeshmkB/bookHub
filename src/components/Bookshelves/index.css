@@ -1,0 +1,240 @@
+.book-shelves-container {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+}
+.responsive-shelves-container {
+  flex: 1;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1140px;
+  padding-top: 20px;
+  overflow: auto;
+}
+@media (min-width: 768px) {
+  .responsive-shelves-container {
+    flex-direction: row;
+    padding-top: 30px;
+  
+  }
+}
+.books-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.search-input-small-device {
+  display: flex;
+  background-color: #edeff1;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.search-input-small-device input {
+  width: 100%;
+  padding: 2px;
+  padding-left: 6px;
+  border: none;
+  outline: none;
+}
+.search-input-small-device button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .search-input-small-device {
+    display: none;
+  }
+}
+.top-search {
+  display: flex;
+  align-items: center;
+ 
+}
+.top-heading {
+  display: none;
+  font-family: roboto;
+  color: #334155;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .top-heading {
+    display: inline;
+  }
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  flex: 1;
+}
+.searchInput {
+  width: 100%;
+  padding: 4px;
+  padding-left: 8px;
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  padding: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: roboto;
+  background-color: #edeff1;
+  border: none;
+}
+@media (min-width: 768px) {
+  .top-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+  }
+  .search-container {
+    max-width: 250px;
+  }
+}
+
+.book-lists {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding-left: 15px;
+  padding-top: 20px;
+  list-style-type: none;
+}
+@media (min-width: 768px) {
+  .book-lists {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-bottom: 30px;
+  }
+}
+.search-small-device {
+  padding: 15px;
+}
+
+.loader-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-result-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-books {
+  width: 257px;
+  height: 176px;
+}
+@media (min-width: 768px) {
+  .no-books {
+    width: 476px;
+    height: 327px;
+  }
+}
+.no-books-result {
+  font-family: roboto;
+  font-size: 16px;
+  color: #334155;
+  font-weight: 400;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  .no-books-result {
+    font-weight: 450;
+    font-size: 18px;
+  }
+}
+.no-result-content {
+  text-align: center;
+}
+.failure-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-image {
+  width: 238px;
+  height: 117px;
+}
+@media (min-width: 768px) {
+  .failure-image {
+    width: 469px;
+    height: 230px;
+  }
+}
+.api-trigger-info {
+  font-size: 14px;
+  font-family: roboto;
+  font-weight: 400;
+  color: #475569;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .api-trigger-info {
+    font-size: 18px;
+    font-weight: 450;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+}
+.api-trigger-button {
+  background-color: #0284c7;
+  border: none;
+  border-radius: 8px;
+  font-family: roboto;
+  font-size: 14px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+@media (min-width: 768px) {
+  .api-trigger-button {
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+.asidebar-large-device {
+  display: none;
+  
+}
+
+@media (min-width: 768px) {
+  .asidebar-small-device {
+    display: none;
+  }
+  .asidebar-large-device {
+    display: flex;
+      width: 30%;
+     max-width: 256px;
+    
+  }
+}
